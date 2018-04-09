@@ -1,0 +1,21 @@
+<swiper class="slides">
+	<swiper-item wx:for="{{slides}}" wx:key="id">
+		<navigator url="{{item.link}}" wx:if="{{item.link}}">
+		 	<image src="{{item.image}}" mode="aspectFill"/>
+		</navigator>
+		<image src="{{item.image}}" wx:else mode="aspectFill"/>
+	</swiper-item>	
+</swiper>
+
+<view class="grids">
+	<!--<navigator>跳转-->
+	<navigator url="/pages/list/list?cat={{item.id}}" class="item" wx:for="{{fengguang}}" wx:key="id">
+		<image src="{{item.icon}}"/>
+		<text>{{item.name}}</text>
+	</navigator>
+</view>
+
+<view class="links">
+	<image src="/image/relation/fengguang.png"/>
+	<image src="/image/relation/relative.png"/>
+</view>

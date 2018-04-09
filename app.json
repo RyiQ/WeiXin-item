@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/list/list",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3a4861",
+    "navigationBarTitleText": "生活向导",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#bcc09c",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#444",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home0.png",
+        "selectedIconPath": "image/home1.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "image/message0.png",
+        "selectedIconPath": "image/message1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/my0.png",
+        "selectedIconPath": "image/my1.png"
+      }
+    ]
+  }
+}
